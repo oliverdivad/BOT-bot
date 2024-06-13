@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Euro 2024 Sweepstake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Euro 2024 Sweepstake</h1>
+    <form id="teamForm">
+        <label for="name">Select your name:</label>
+        <select id="name" required>
+            <option value="Doss">Doss</option>
+            <option value="Jock">Jock</option>
+            <option value="Trigger">Trigger</option>
+            <option value="Melhorn">Melhorn</option>
+            <option value="D.O.">D.O.</option>
+            <option value="Rang Snagfester">Rang Snagfester</option>
+            <option value="Dr Cheeks">Dr Cheeks</option>
+            <option value="Shouldaz">Shouldaz</option>
+            <option value="Wiz">Wiz</option>
+            <option value="Badoo">Badoo</option>
+            <option value="Symsey">Symsey</option>
+            <option value="Tobes">Tobes</option>
+            <option value="Tatty Mom">Tatty Mom</option>
+            <option value="Manse">Manse</option>
+            <option value="Fletch">Fletch</option>
+            <option value="Fraser">Fraser</option>
+        </select>
+
+        <label for="question1">What was the best BOT?</label>
+        <select id="question1" required>
+            <option value="Gran Canaria">Gran Canaria</option>
+            <option value="Tenerife">Tenerife</option>
+            <option value="Kavos">Kavos</option>
+            <option value="Faliraki">Faliraki</option>
+            <option value="DubEdDam">DubEdDam</option>
+            <option value="Malaga">Malaga</option>
+            <option value="Lisbon">Lisbon</option>
+            <option value="Munich">Munich</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="question2">Who should be the Leader's 2nd in command?</label>
+        <select id="question2" required>
+            <option value="Badoo">Badoo</option>
+            <option value="Manse">Manse</option>
+            <option value="Jock">Jock</option>
+            <option value="Rang Snagfester">Rang Snagfester</option>
+        </select>
+
+        <label for="question3">Nutmeg or goal?</label>
+        <select id="question3" required>
+            <option value="Nutmeg">Nutmeg</option>
+            <option value="Goal">Goal</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="result"></div>
+
+    <h2>Allocations</h2>
+    <table id="allocationsTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Team</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Allocations will be appended here -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
